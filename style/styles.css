@@ -1,0 +1,29 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(240, 248, 255) ;
+}
+
+
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 150px;
+}
+
+.logo{
+    font-weight: 900;
+    font-size: 28px;
+    color: #0d2c74;
+}
+
+.resume-download-btn{
+    padding: 17px 24px;
+    border-radius: 8px;
+    background-color: white;
+    border: 1px solid grey;
+    font-weight: 600;
+    font-size: 15px;
+
+}
