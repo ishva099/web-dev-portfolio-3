@@ -6,6 +6,14 @@
     /* background-color: rgb(240, 248, 255) ; */
 }
 
+/* shared styles */
+.text-center{
+    text-align: center;
+}
+.color-1{
+    color: #0D1321;
+}
+
 /* navbar styles */
 .navbar{
     display: flex;
@@ -77,4 +85,68 @@
 }
 
 
+/* main styles */
+main{
+    width: 80%;
+    margin: 0 auto;
+    /* margin-top: 61px;
+    margin-left: 144px;
+    margin-right: 144px; */
+    background-color: rgb(247, 245, 245);
 
+    /* text-align: center; */
+}
+
+.div{
+    padding: 80px 97px;
+}
+.section-title{
+    font-weight: bolder;
+    font-size: 32px;
+}
+.section-description{
+    margin-top: 24px;
+}
+
+/* box styles */
+
+.box-1{
+    display: flex;
+    justify-content: space-around;
+    width: 70%;
+    margin: 0 auto;
+    /* gap: 99px; */
+    align-items: center;
+    padding: 48px;
+    margin-top: 48px;
+    border: 1px solid grey;
+    border: none;
+    border-radius: 4px;
+    box-shadow: 2px 2px 3px 3px rgb(226, 222, 222);
+    margin-bottom: 50px;
+    
+}
+.box1-left{
+    width: 477px;
+}
+.box1-right{
+    width: 274.17px;
+    height: 240px;
+}
+
+.box-title{
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.box-description{
+    font-size: 16px;
+    margin-top: 16px;
+}
+
+.learn-btn{
+    padding: 12px 20px;
+    font-weight: 600;
+    font-size: 20px;
+    margin-top: 32px;
+}
