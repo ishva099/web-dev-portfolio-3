@@ -98,21 +98,20 @@
 }
 
 
-/* main styles */
-main{
-    width: 80%;
+/* section-1 styles inside Main*/
+.section-1{
+    width: 1140px;
     margin: 0 auto;
+    padding: 80px 97px;
     /* margin-top: 61px;
     margin-left: 144px;
     margin-right: 144px; */
     background-color: rgb(250, 247, 247);
-
+    border-radius: 16px;
     /* text-align: center; */
 }
 
-.div{
-    padding: 80px 97px;
-}
+
 .section-title{
     font-weight: bolder;
     font-size: 32px;
@@ -210,4 +209,76 @@ main{
 
 .box3-right{
     width: 240px;
+}
+
+/* section-2 styles inside main */
+
+.section-2{
+    width: 1140PX;
+    margin: 0 auto;
+   
+}
+
+.youtube_video-box{
+    text-align: center;
+    margin-top: 48px;
+    padding: 32px 32px;
+    border: 1px solid rgb(224, 222, 222);
+    border-radius: 16px;
+    box-shadow: 2px;
+    /* width: 100%; */
+  
+}
+
+
+/* target section style */
+
+.section-3{
+    margin-top: 151px ;
+}
+
+.target-description{
+    margin-top: 24px;
+}
+
+.html-box{
+    text-align: justify;
+    width: 364px;
+    height: 299px;
+    /* border: 1px solid rgb(243, 243, 243); */
+    border-radius: 16px;
+    padding: 20px;
+    background-color: rgba(231, 255, 30, 0.05);
+}
+
+.css-box{
+    text-align: justify;
+    width: 364px;
+    height: 299px ;
+    background-color: rgba(63, 0, 232, 0.05);
+    border-radius: 16px;
+    padding: 20px;
+
+}
+
+.js-box{
+    text-align: justify;
+    width: 364px;
+    height: 299px;
+    padding: 20px;
+    border-radius: 16px;
+    padding: 20px;
+    background-color: rgba(231, 255, 30, 0.05);
+}
+
+.box-container{
+    display: flex;
+    gap: 24px;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+.target-box-description{
+    margin-top: 8px;
+    margin-bottom: 10px;
 }
